@@ -18,7 +18,7 @@ resource "aws_organizations_policy" "RestrictBasedonRegion-India" {
                 "globalaccelerator:*",
                 "importexport:*",
                 "support:*",
-                "s3:*",
+                "s3:*"
             ],
             "Resource": "*",
             "Condition": {
