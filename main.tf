@@ -19,7 +19,6 @@ resource "aws_organizations_policy" "RestrictBasedonRegion-India" {
                 "importexport:*",
                 "support:*",
                 "s3:*",
-                "wafv2:*"
             ],
             "Resource": "*",
             "Condition": {
