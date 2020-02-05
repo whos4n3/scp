@@ -28,8 +28,7 @@ phases:
   
   build:
     commands:
-     # - source /tmp/aws_cred_export.txt && terraform remote config -backend=s3 -backend-config="bucket=${TerraformStateBucket}" -backend-config="key=terraform.tfstate"
-      #- source /tmp/aws_cred_export.txt &&
+
       - cd "$CODEBUILD_SRC_DIR"
       - terraform --version
       - terraform init
